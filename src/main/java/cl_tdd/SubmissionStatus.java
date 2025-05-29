@@ -14,8 +14,8 @@ public class SubmissionStatus{
                 return;
             }
         }
-    //    throw new IllegalArgumentException("Invalid status: " + status);
-    // }
+       throw new IllegalArgumentException("Invalid status: " + status);
+    }
 
     public String getStatus() {
         return this.status;
