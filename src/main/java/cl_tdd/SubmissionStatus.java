@@ -4,7 +4,7 @@ public class SubmissionStatus{
     private String status;
 
     private static final String[] VALID_STATUSES = {
-        "Not Submitted", "Working on It",  "Ready for Feedbac"
+//        "Not Submitted", "Working on It",  "Ready for Feedbac"
     };
 
     public void setStatus(String status) {
